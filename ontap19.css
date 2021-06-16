@@ -1,0 +1,102 @@
+*{margin: 0;padding: 0;}
+body{
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+#all{
+	width: 960px;
+	min-height: 400px;
+	background: red;
+	margin: auto;
+	/*display: flex;*/
+	/*biến all thành động để nó flexible theo thành phần bên trong*/
+}
+/*#trai{
+	width: 500px;
+	height: 500px;
+	background: blue;
+	float: left;
+}
+#phai{
+	width: 400px;
+	height: 600px;
+	background: yellow;
+	float: left;
+}*/
+header{
+	width: 900px;
+	height: 100px;
+	background: honeydew;
+	margin: auto;
+	border: 10px solid #999999;
+	box-sizing: border-box;
+	/*thêm vào để tính tràn viền voà bên trong chứ không tính ra ngoài*/
+	line-height: 100px;
+}
+nav{
+	width: 900px;
+	height: 70px;
+	background: #21FF06;
+	margin: auto;
+	border: 5px solid #999999;
+	box-sizing: border-box;
+	line-height: 70px;
+}
+#content{
+	width: 900px;
+	height: 200px;
+	background: #8000FF;
+	margin: auto;
+	border: 1px solid #999999;
+	box-sizing: border-box;
+}
+#left{
+	width: 480px;
+	height: 200px;
+	background: #FFFF0A;
+	margin: auto;
+	border: 5px solid #999999;
+	box-sizing: border-box;
+	float: left;
+}
+section{
+	width: 480px;
+	height: 90px;
+	background: #808080;
+	margin: auto;
+	border: 2px solid #999999;
+	box-sizing: border-box;	
+	line-height: 90px;
+}
+article{
+	width: 480px;
+	height: 100px;
+	background: #6666FF;
+	margin: auto;
+	border: 2px solid #999999;
+	box-sizing: border-box;	
+	line-height: 90px;
+}
+aside{
+	width: 380px;
+	height: 200px;
+	background: #108040;
+	margin: auto;
+	border: 5px solid #999999;
+	box-sizing: border-box;
+	float: right;
+	line-height: 200px;
+}
+footer{
+	width: 900px;
+	height: 100px;
+	background: olivedrab;
+	margin: auto;
+	border: 10px solid #999999;
+	box-sizing: border-box;
+	/*thêm vào để tính tràn viền voà bên trong chứ không tính ra ngoài*/
+	line-height: 100px;
+}
+
